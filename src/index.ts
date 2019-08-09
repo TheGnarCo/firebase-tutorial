@@ -7,6 +7,7 @@ import database from './database'
 const PORT = process.env.PORT || 3000
 
 const app = express()
+app.use(express.json())
 
 app.get('/', (_request: Request, response: Response) => {
   response.send({ hello: 'world' })
