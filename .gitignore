@@ -1,0 +1,10 @@
+node_modules/*
+npm-debug.log
+.tscache
+*.tmp.txt
+*.cache
+dist
+typings
+bin
+serviceKey.json
+.env
