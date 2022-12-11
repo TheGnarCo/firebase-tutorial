@@ -9,7 +9,7 @@
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase": "^6.3.5",
     "firebase-admin": "^8.3.0"
   },
